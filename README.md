@@ -16,7 +16,7 @@ The internal spans are associated correctly. However, the `load_balancer` and `c
 
 ![](/screenshot2.png)
 
-These two components should show up as their own spans in the flame graph.
+**These two components should show up as their own spans in the flame graph.**
 
 You can confirm that the traceid is set correctly by viewing the trace logs:
 
